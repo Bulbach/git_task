@@ -1,8 +1,19 @@
 package org.example.release;
 
+import java.util.List;
+
 public class Release {
     private String dateRelease;
     private String bugFix;
+    private List<String> changes;
+
+    public List<String> getChanges() {
+        return changes;
+    }
+
+    public void setChanges(List<String> changes) {
+        this.changes = changes;
+    }
 
     public Release(String dateRelease, String bugFix) {
         this.dateRelease = dateRelease;
