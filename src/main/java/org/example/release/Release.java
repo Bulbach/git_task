@@ -10,6 +10,12 @@ public class Release {
     public Release() {
     }
 
+    public Release(String dateRelease, String bugFix, List<String> changes) {
+        this.dateRelease = dateRelease;
+        this.bugFix = bugFix;
+        this.changes = changes;
+    }
+
     public List<String> getChanges() {
         return changes;
     }
