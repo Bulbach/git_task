@@ -7,6 +7,9 @@ public class Release {
     private String bugFix;
     private List<String> changes;
 
+    public Release() {
+    }
+
     public List<String> getChanges() {
         return changes;
     }
