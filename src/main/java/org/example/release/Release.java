@@ -4,6 +4,14 @@ public class Release {
     private String dateRelease;
     private String bugFix;
 
+    public Release() {
+    }
+
+    public Release(String dateRelease, String bugFix) {
+        this.dateRelease = dateRelease;
+        this.bugFix = bugFix;
+    }
+
     public String getBugFix() {
         return bugFix;
     }
