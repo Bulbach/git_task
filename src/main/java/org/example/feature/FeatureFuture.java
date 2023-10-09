@@ -4,6 +4,14 @@ public class FeatureFuture {
     private String name;
     private String target;
 
+    public FeatureFuture() {
+    }
+
+    public FeatureFuture(String name, String target) {
+        this.name = name;
+        this.target = target;
+    }
+
     public String getTarget() {
         return target;
     }
