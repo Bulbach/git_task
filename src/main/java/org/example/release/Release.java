@@ -7,9 +7,6 @@ public class Release {
     private String bugFix;
     private List<String> changes;
 
-    public Release() {
-    }
-
     public Release(String dateRelease, String bugFix, List<String> changes) {
         this.dateRelease = dateRelease;
         this.bugFix = bugFix;
